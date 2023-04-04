@@ -160,3 +160,11 @@ svg {
 .fs-secondary-heading{
   font-size: var(--fs-secondary-heading);
 }
+
+.fx-xs{
+  font-size: var(--fs-300);
+}
+.fx-small{
+  font-size: var(--fs-400);
+}
+
