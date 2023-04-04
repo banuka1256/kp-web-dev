@@ -168,3 +168,17 @@ svg {
   font-size: var(--fs-400);
 }
 
+.primary-header{
+  margin: 0 auto;
+  padding: 20px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  gap:16px
+}
