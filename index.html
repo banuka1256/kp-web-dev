@@ -14,21 +14,23 @@
     <link rel="stylesheet" href="tailstyle.css" />
   </head>
   <body>
-    <header class="">
-      <div class="flex justify-between">
-        <a href="home"><img src="./public/images/logo.svg" alt="" width="100px"></a>
-        <nav >
-          <ul role="list" class="flex justify-between gap-3">
-            <li> <a href="#"> Pricing</a></li>
-            <li> <a href="#"> Product</a></li>
-            <li> <a href="#"> About Us</a></li>
-            <li> <a href="#"> Careers</a></li>
-            <li> <a href="#"> Community</a></li>
-          </ul>
-        </nav>
-        <button class="bg-orange-600 rounded-lg max-md:">Get Started</button>
+    <nav class="relative container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <a href="#"><img src="./public/images/logo.svg" alt="" width="100px"/></a>
+        <div class="hidden md:flex md:space-x-6">
+            <a href="#"> Pricing</a>
+            <a href="#"> Product</a>
+            <a href="#"> About Us</a>
+            <a href="#"> Careers</a>
+            <a href="#"> Community</a>
+        </div>
+       
+  
+        <button class="bg-orange-600 rounded-lg">Get Started</button>
+
       </div>
-    </header>
+     
+    </nav>
 
     <script type="module" src="./main.js"></script>
   </body>
