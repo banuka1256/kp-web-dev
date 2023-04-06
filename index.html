@@ -9,28 +9,74 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="tailstyle.css" />
   </head>
-  <body>
+  <body class="text-sm">
     <nav class="relative container mx-auto p-6">
       <div class="flex items-center justify-between">
-        <a href="#"><img src="./public/images/logo.svg" alt="" width="100px"/></a>
+        <a href="#"
+          ><img src="./public/images/logo.svg" alt="" width="100px"
+        /></a>
         <div class="hidden md:flex md:space-x-6">
-            <a href="#"> Pricing</a>
-            <a href="#"> Product</a>
-            <a href="#"> About Us</a>
-            <a href="#"> Careers</a>
-            <a href="#"> Community</a>
+          <a href="#" class="hover:text-BrightRed"> Pricing</a>
+          <a href="#" class="hover:text-BrightRed"> Product</a>
+          <a href="#" class="hover:text-BrightRed"> About Us</a>
+          <a href="#" class="hover:text-BrightRed"> Careers</a>
+          <a href="#" class="hover:text-BrightRed"> Community</a>
         </div>
-       
-  
-        <button class="bg-orange-600 rounded-lg">Get Started</button>
-
+        <button
+          class="hidden md:block p-3 px-6 bg-BrightRed text-white rounded-full hover:bg-DarkBlue">
+          Get Started
+        </button>
       </div>
-     
     </nav>
+    <!-- hero section -->
+      <div
+        class="container flex flex-col-reverse md:flex-row items-center  mx-auto space-y-0 md:space-y-0">
+        <div class="md:w-1/2 ">
+          <h3
+            class="text-4xl py-4 font-bold text-center md:text-5xl md:text-left">
+            Bring everyone together to build better products.
+          </h3>
+          <p class="text-sm">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <button
+            class="hidden md:block p-3 px-6 bg-BrightRed text-white rounded-full hover:bg-DarkBlue">
+            Get Started
+          </button>
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="./public/images/illustration-intro.svg"
+            alt=""
+            class="container" />
+        </div>
+      </div>
+
+  
+      <div class="container mx-auto flex justify-between">
+        <div class="">
+          <h3 class="text-xl font-bold">What's different about Manage?</h3>
+          <p class="text-sm font-normal">
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <div class="">
+          <h1 class="bg-BrightRed rounded-full w-fit h-fit px-2 inline ">01</h1>
+          <h1 class="text-lg font-bold inline ">Track company-wide progress</h1>
+          <p class="text-sm md:m-">
+            See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all the way done to the
+            smallest of details. Never lose sight of the bigger picture again.
+          </p>
+        </div>
+      </div>
+
 
     <script type="module" src="./main.js"></script>
   </body>
